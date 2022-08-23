@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>Kontakt - wędrówki po polskich ostojach przyrody | Forest Group</title>
+    <meta name="description" content="Jeśli jesteś miłośnikiem natury i chcesz odwiedzić oraz poczuć atmosferę dzikiej przyrody - zapraszamy do kontaktu z Forest Group!">
+    <!-- @include 'head.kit' -->
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar__nav">
+                <div class="navbar__logo">
+                    <a href="index.html"><i class="fa-solid fa-tree"></i> Forest</a>
+                </div>
+                <button class="hamburger hamburger--stand navbar__burger-btn" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <ul class="navbar__mobile">
+                    <li class="navbar__item navbar__mobile-item"><a href="index.html">Home</a></li>
+                    <li class="navbar__item navbar__mobile-item"><a href="index.html#aboutus">O nas</a></li>
+                    <li class="navbar__item navbar__mobile-item"><a href="index.html#offer">Oferta</a></li>
+                    <li class="navbar__item navbar__mobile-item"><a href="#contact">Kontakt</a></li>
+                </ul>
+                <ul class="navbar__desktop">
+                    <li class="navbar__item navbar__desktop-item"><a href="index.html">Home</a></li>
+                    <li class="navbar__item navbar__desktop-item"><a href="index.html#aboutus">O nas</a></li>
+                    <li class="navbar__item navbar__desktop-item"><a href="index.html#offer">Oferta</a></li>
+                    <li class="navbar__item navbar__desktop-item"><a href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="contact" class="scroll-fix">
+            <div class="contact" style="margin-top: 8em">
+                <div class="container">
+                    <h2 class="section-title section-padding">kontakt</h2>
+                    <div class="contact__details">
+                        <div class="contact__info">
+                            <h3>Masz pytania?</h3>
+                            <p>Napisz do nas na poniższy adres mailowy lub skorzystaj z formularza kontaktowego</p>
+                            <p><i class="fa-regular fa-envelope"></i> contact@forestgroup.com</p>
+                        </div>
+                        <form class="contact__form">
+                            <div class="contact__box">
+                                <input type="text" id="name" class="contact__input">
+                                <label for="name" class="contact__label">Imię i nazwisko</label>
+                            </div>
+                            <div class="contact__box">
+                                <input type="email" id="mail" class="contact__input">
+                                <label for="mail" class="contact__label">Adres mailowy</label>
+                            </div>
+                            <div class="contact__box">
+                                <textarea id="msg" class="contact__textarea"></textarea>
+                                <label for="msg" class="contact__label">Treść wiadomości</label>
+                            </div>
+                            <button class="contact__btn" type="submit">Wyślij</button>
+                        </form>
+                    </div>
+                    <p class="contact__map-info">Mapa dojazdu</p>
+                    <iframe class="contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.898452497736!2d19.890660215718313!3d50.088188079426935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1659015363073!5m2!1spl!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- @include 'footer.kit' -->
+    <script src="dist/js/main.min.js"></script>
+    <script src="dist/js/contact.min.js"></script>
+</body>
+
+</html>

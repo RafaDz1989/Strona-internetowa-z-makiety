@@ -1,0 +1,28 @@
+.container {
+    margin: 0 auto;
+    padding: 0 2em;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.section-title {
+    margin-bottom: 1.8em;
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-padding {
+    padding-top: 2.2em;
+}
+
+@media (min-width: 992px) {
+    .section-title {
+        font-size: 3.2rem;
+    }
+
+    .section-padding {
+        padding-top: 2.4em;
+    }
+}
