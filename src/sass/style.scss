@@ -457,6 +457,12 @@ a {
 // MEDIA
 // ==============
 @media (min-width: 768px) {
+    .navbar {
+        &__mobile-item {
+            font-size: 2.6rem;
+        }
+    }
+
     .offer {
         &__cards {
             display: flex;
@@ -498,14 +504,6 @@ a {
                 justify-content: space-around;
                 padding: 0 3em;
                 width: 100%;
-        }
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    .navbar {
-        &__mobile-item {
-            font-size: 2.6rem;
         }
     }
 }
