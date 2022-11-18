@@ -393,7 +393,7 @@ a {
         border: none;
 
         &-info {
-            margin-top: 5em;
+            margin-top: 8em;
             font-size: 2rem;
             text-align: center;
         }
@@ -612,8 +612,14 @@ a {
     }
 
     .contact {
+        &__details {
+            display: flex;
+        }
+
         &__info {
-            margin-bottom: 6em;
+            width: 35%;
+            margin-bottom: 0;
+            margin-right: 4em;
 
             & h3 {
                 font-size: 2.6rem;
@@ -630,6 +636,10 @@ a {
             }
         }
 
+        &__form {
+            width: 65%;
+        }
+
         &__btn {
             font-size: 1.4rem;
         }
@@ -638,7 +648,6 @@ a {
             height: 50vh;
 
             &-info {
-                margin-top: 7em;
                 font-size: 2.4rem;
             }
         }
