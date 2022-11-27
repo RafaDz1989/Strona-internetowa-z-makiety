@@ -23,13 +23,6 @@ body {
     overflow-x: hidden;
 }
 
-.scroll-fix::before {
-    display: block;
-    margin-top: -79px;
-    height: 80px;
-    content: '';
-}
-
 a {
     color: $black;
     text-decoration: none;

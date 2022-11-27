@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const handleScrollspy = entries => {
-        if (document.body.classList.contains('main-page')) {
+        if (document.body.hasAttribute('data')) {
             entries.forEach(entry => {
                 const activeLink = document.querySelector(`.navbar__desktop-item a[href='#${entry.target.id}']`);
 
